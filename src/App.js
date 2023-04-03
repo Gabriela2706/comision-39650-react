@@ -1,10 +1,15 @@
+import "./App.css";
 
-import './App.css';
+import { CartWidgetPresentation } from "./components/CartWidget/CartWidgetPresentation";
+import ItemList from "./components/ItemList/ItemList";
 
 function App() {
+  let saludoCliente = "Hola! Bienvenidx a POLA SUR =)";
+
   return (
     <div className="App">
-     <h1>Hola Mundoooooo</h1>
+      <CartWidgetPresentation />
+      <ItemList propItemList={saludoCliente} />
     </div>
   );
 }

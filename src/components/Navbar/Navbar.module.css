@@ -1,0 +1,8 @@
+.navbarEstilos {
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  background-color: peru;
+}
