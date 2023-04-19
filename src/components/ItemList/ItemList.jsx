@@ -1,10 +1,9 @@
-function ItemList(prop) {
-  console.log(prop.propItemList);
+const ItemList = ({ bienvenidaPrueba }) => {
   return (
     <div>
-      <h1>{prop.propItemList}</h1>
+      <button onClick={() => bienvenidaPrueba()}> Hace click aqui</button>
     </div>
   );
-}
+};
 
 export default ItemList;
